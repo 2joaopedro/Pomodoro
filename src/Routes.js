@@ -9,8 +9,8 @@ const Stack = createNativeStackNavigator();
 export default function Routes(){
     return(
         <Stack.Navigator>
-            <Stack.Screen name="welcome" component={welcome} options={{headerShown: false}}/>
-            <Stack.Screen name="home" component={home} options={{headerShown: false}}/>
+            <Stack.Screen name="welcome" component={welcome} options={{headerShown: false, statusBarColor: '#FF5733'}}/>
+            <Stack.Screen name="home" component={home}  options={{headerShown: false,statusBarColor: '#FF5733'}}/>
             <Stack.Screen name="setting" component={setting} options={{headerShown: false}}/>
         </Stack.Navigator>
     )
