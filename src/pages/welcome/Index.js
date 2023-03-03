@@ -6,6 +6,7 @@ export default function Welcome(){
     const navigation = useNavigation();
     return(
         <SafeAreaView style={Styles.container}>
+
             <View style={Styles.containerLogo}>
                 <Text style={Styles.logoText}>Pomodoro</Text>
             </View>

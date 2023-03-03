@@ -1,5 +1,4 @@
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-
 import welcome from './pages/welcome/Index';
 import home from './pages/home/Index';
 import setting from './pages/setting/Index';
